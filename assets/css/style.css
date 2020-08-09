@@ -70,17 +70,21 @@ header nav ul {
 .about-me {
     padding: 150px;
     font-size: 40px;
-    color: lightslategray
+    color: lightslategray;
 }
 
 .work {
     padding: 150px;
     font-size: 40px;
-    color: lightslategray
+    color: lightslategray;  
+}
+
+.primary-border {
+    border-right: 5px solid lightslategray;
 }
 
 .contact-me {
     padding: 150px;
     font-size: 40px;
-    color: lightslategray
+    color: lightslategray;
 }
