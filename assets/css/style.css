@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Short Life*/
+
+body {
+    
+    font-family: helvetica, Arial, sans-serif;
+}
+
+header {
+    padding: 20px 35px;
+    background-color: grey;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header a {
+    text-decoration: none;
+    color: whitesmoke;
+    margin: 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+
+  header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
+}
+
+
+.hero {
+    background-image: url("../images/hero-bgi.jpeg");
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    padding: 120px;
+    color: seashell;
+}
+
+.hero h2 {
+    font-size: 50px;
+    font-family: fantasy;
+    text-align: right;
+    justify-content: right;
+}
+
+.hero p {
+    font-size: 30px;
+    font-style: italic;
+    text-align: right;
+    justify-content: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-me {
+    padding: 150px;
+    font-size: 40px;
+    color: lightslategray
+}
+
+.work {
+    padding: 150px;
+    font-size: 40px;
+    color: lightslategray
+}
+
+.contact-me {
+    padding: 150px;
+    font-size: 40px;
+    color: lightslategray
+}
