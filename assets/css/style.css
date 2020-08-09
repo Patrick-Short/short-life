@@ -67,20 +67,44 @@ header nav ul {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.about-me {
-    padding: 150px;
-    font-size: 40px;
+.about-me-label {
+    width: 100%;
+    padding: 20px 0;
+    font-size: normal;
     color: lightslategray;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
 }
 
-.work {
-    padding: 150px;
-    font-size: 40px;
-    color: lightslategray;  
+.about-me-text {
+    justify-content: right;
+    color:lightslategray;
+    text-align: left;
+    padding: 50px 15px;
+}
+
+.work-label {
+    width: 100%;
+    padding: 20px 0;
+    font-size: normal;
+    color: lightslategray;
+    display: flex;
+    flex: wrap;
+    justify-content: space-between;
+}
+
+.work-grid-container {
+    justify-content: right;
+    color:lightslategray;
+    text-align: left;
+    padding: 50px 15px;
 }
 
 .primary-border {
     border-right: 5px solid lightslategray;
+    padding: 70px 150px;
+    font-size: 50px;
 }
 
 .contact-me {
